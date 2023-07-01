@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*pp*/
+body{
+    background-image: url(./images/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png);
+    color: white;
+}
+#container{
+    max-width: 1240px;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 1036px;
+    margin-top: 30px;
+    margin: auto;
+ 
+}
+#title{
+color: white;
+font-size: 3.1rem;
+font-family: 'Bowlby One SC';
+letter-spacing: 0,31rem;
+}
+span{
+    color:red
+}
+#description{
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+header{
+    text-align: center;
+}
+#survey-form-container{
+    width: 500px;
+    height: 897px;
+    background-color: rgba(54, 54, 54, 0.3);
+    margin: auto;
+    padding: 10px 40px;
+}
+#survey-form{
+    max-width: 460px;
+    margin: auto;
+    font-size: 1rem;
+
+
+}
+#name,#age,#email,#dropdown,#feedback{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input-box{
+    margin-top: 10px;
+}
+#form-button{
+    width: 160px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+#form-submit{
+    width: 160px;
+    margin: auto;
+    margin-top: 15px;    
+}
+textarea{
+    resize: none;
+}
